@@ -1,0 +1,16 @@
+{
+ "name": "s0x-r13-ra",
+ "scripts": {
+  "postdeploy": "echo s0x-base-postdeploy"
+ },
+ "env": {
+  "S0X_CANARY": {
+   "required": false
+  }
+ },
+ "buildpacks": [
+  {
+   "url": "heroku/python"
+  }
+ ]
+}
