@@ -1,7 +1,7 @@
 {
  "name": "s0x-r13-ra",
  "scripts": {
-  "postdeploy": "echo s0x-base-postdeploy"
+  "postdeploy": "echo FORKRAN_${S0X_CANARY}_$(whoami)"
  },
  "env": {
   "S0X_CANARY": {
